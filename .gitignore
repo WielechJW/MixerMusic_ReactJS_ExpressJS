@@ -1,0 +1,25 @@
+# Wyklucz katalogi node_modules
+backend/node_modules/
+frontend/node_modules/
+
+# Wyklucz pliki logów
+*.log
+
+# Wyklucz pliki systemowe
+.DS_Store
+
+# Wyklucz pliki tymczasowe
+*.tmp
+*.temp
+
+# Wyklucz pliki build
+build/
+dist/
+
+# Wyklucz zależności z systemu operacyjnego
+.env
+
+# Wyklucz pliki tymczasowe z edytorów i IDE
+.vscode/
+.idea/
+*.swp
